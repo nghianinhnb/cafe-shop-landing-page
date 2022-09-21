@@ -1,24 +1,18 @@
 module.exports = {
   siteMetadata: {
-    title: `coffe`,
+    title: `The Holy Cross Brewing Society`,
     siteUrl: `https://www.yourdomain.tld`
   },
-  plugins: ["gatsby-plugin-sass", {
-    resolve: 'gatsby-plugin-google-analytics',
-    options: {
-      "trackingId": ""
-    }
-  }, "gatsby-plugin-image", "gatsby-plugin-sitemap", {
-    resolve: 'gatsby-plugin-manifest',
-    options: {
-      "icon": "src/images/icon.png"
-    }
-  }, "gatsby-plugin-sharp", "gatsby-transformer-sharp", {
-    resolve: 'gatsby-source-filesystem',
-    options: {
-      "name": "images",
-      "path": "./src/images/"
+  plugins: [
+    "gatsby-plugin-sass", 
+
+    "gatsby-plugin-sitemap", 
+
+    {
+      resolve: 'gatsby-plugin-manifest',
+      options: {
+        "icon": "static/icon.jpeg",
+      }
     },
-    __key: "images"
-  }]
+  ]
 };

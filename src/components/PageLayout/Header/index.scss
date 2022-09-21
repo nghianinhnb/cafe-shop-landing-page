@@ -1,0 +1,38 @@
+@use '../../../assets/scss/variables' as globe;
+
+
+.Header {
+    background-image: url("../../../../static/black-wood.jpg");
+}
+
+.Logo_Contact {
+    height: 4.2rem;
+
+    .Logo {
+        font-size: 1.12rem;
+        font-style: normal;
+        font-weight: 700;
+    }
+
+    .Contact {
+        img:hover {
+            opacity: .8 !important;
+        }
+    }
+
+}
+
+.Page_Banner {
+    padding: 40px 0 110px 0;
+}
+
+.Top_Nav {
+    a {
+        font-size: 18px;
+        font-weight: 400;
+        opacity: .7;
+    }
+    a:hover {
+        opacity: 1;
+    }
+}
